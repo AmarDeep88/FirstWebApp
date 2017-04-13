@@ -12,6 +12,9 @@ public class LoginServlet extends HttpServlet {
 		
 		PrintWriter writer = response.getWriter();
 		writer.println("Dummy Amar");
+		System.out.println(request.getParameter("name"));
+		request.setAttribute("name", request.getParameter("name"));
+		
 		request.getRequestDispatcher("/WEB-INF/views/FirstJspFile.jsp").forward(request, response);
 		
 	}
