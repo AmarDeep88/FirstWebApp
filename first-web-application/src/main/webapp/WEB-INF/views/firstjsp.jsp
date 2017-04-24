@@ -17,7 +17,7 @@ This is my First JSP name is ${name}
 <div>you need to understand that JSP is view ideally you should not use scriplets and put is login in JSPs you should always just display 
 information thats it.
 </div>
-<form action="/login.do" method="post">
+<form action="/spring-mvc/login.do" method="post">
 Enter your name<input type ="text" name="name">
 password<input type ="password" name="password">
 <input type="submit" name="Submit" value="Submit">
